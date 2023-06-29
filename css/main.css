@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header, footer {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+}
+
+header h1 {
+    font-weight: 100;
+}
+
+header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    transition: 0.5s;
+    color: #665f5f;
+}
+
+.container-flex {
+    display: flex;
+}
+
+main > .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    border-bottom: 1px solid black;
+    gap: 2rem;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section {
+    margin-bottom: 16px;
+}
+
+.lista-flores p {
+    padding: 5px;
+}
+
+.lista-flores li {
+    list-style: none;
+    max-width: 20%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.lista-flores  {
+    justify-content: space-between;
+}
+
+.lista-flores img {
+    max-width: 100%;
+}
+
+.lista-flores li h3 {
+    margin: 16px 0;
+}
+
+.lista-flores li button {
+    display: block;
+    width: 100%;
+    padding: 6px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.lista-flores li button:hover {
+    transition: 0.5s;
+    color: #665f5f;
+    
+}
+
+.lista-flores li strong {
+    display: block;
+    margin: 16px 0;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+footer img {
+    width: 32px;
+}
+
+footer .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-menu {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .conteudo {
+        display: block;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    header h1 {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    header .container {
+        display: block;    
+    }
+
+    header .lista-cabecalho {
+        display: none;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }   
+
+    main > .container {
+        display: block;
+    }
+
+    .img-sobre-a-loja {
+       width: 250px;
+       margin-bottom: 1rem;
+    }
+
+    main h2 {
+        margin-bottom: 1rem;
+    }
+
+    section h2 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container-flex {
+        display: block;
+    }
+
+    .lista-flores li {
+        list-style: none;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+   footer {
+    max-width: 100%;
+   }
+
+   footer li {
+    display: none;
+   }
+
+
+   .btn-menu {
+    display: flex;
+    justify-content: center;
+    border: none;
+   }
+
+   .btn-menu button {
+    padding: 10px;
+   }
+
+   .lista-cabecalho {
+    text-align: center;
+   }
+
+   .lista-cabecalho a {
+    color: white;
+   }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .conteudo {
+        display: block;
+    }
+    
+    .container {
+        max-width: 90%;
+    }
+
+    .btn-menu {
+        display: none;
+    }
+
+    header ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        padding-bottom: 8px;
+    }
+
+    main h2 {
+        margin-bottom: 1rem;
+    }
+
+
+    }
+
+
+

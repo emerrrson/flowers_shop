@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowerish Shop</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1> Flowerish Shop</h1>
+            <div class="btn-menu">
+                <button type="button">Abrir Menu</button>
+            </div>
+            <ul class="lista-cabecalho">
+                <li>
+                    <a href="">Sobre</a>
+                </li>
+                <li>
+                    <a href="">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <img class="img-sobre-a-loja" src="imagens/loja-flores.jpg" width="300px" alt="">
+            <div>
+                <h2>Sobre a Flowerish Shop</h2>
+                <p>Nós estamos no mercado há 10 anos, trazendo a maior variedade de flores e plantas para os nossos clientes. Sempre com o intuito de melhorar a saúde e vida dos pais e mães de plantas. Somos ganhadores de mais de 100 prêmios no mercado e sempre buscando mais. Estamos sempre atualizando vocês em nossas redes sociais de novidades e sorteios de prêmios. </p>
+            </div>
+        </div>
+        <section>
+            <div class="container">
+                <h2>Nossas Plantas e Flores </h2>
+                <ul class="container-flex lista-flores">
+                    <li>
+                        <img src="imagens/bambu.jpg" alt="">
+                        <h3> Bambu </h3>
+                        <p> Temos variedade desse produto </p>
+                        <strong> R$ 79,90 </strong>
+                        <p> 3x De: <strong style="color: green"> R$ 26,63 </strong> </p>
+                        <button type="button">Comprar</button>
+                    </li>
+                    <li>
+                        <img src="imagens/peperomia.jpg" alt="">
+                        <h3> Peperômia </h3>
+                        <p> Temos variedade desse produto </p>
+                        <strong> R$ 49,90 </strong> 
+                        <p> 3x De: <strong style="color: green"> R$ 16,63 </strong> </p>
+                        <button type="button">Comprar</button>
+                    </li>
+                    <li>
+                        <img src="imagens/orquídea.jpg" alt="">
+                        <h3> Orquídea </h3>
+                        <p> Temos variedade desse produto </p>
+                        <strong> R$ 109,90 </strong>
+                        <p> 3x De: <strong style="color: green">R$ 36,63 </strong> </p>
+                        <button type="button">Comprar</button>
+                    </li>
+                    <li>
+                        <img src="imagens/girassol.jpg" alt="">
+                        <h3> Girassol </h3>
+                        <p> Temos variedade desse produto </p>
+                        <strong> R$ 49,90 </strong>
+                        <p> 3x De: <strong style="color: green"> R$ 16,63 </strong></p>
+                        <button type="button">Comprar</button>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container container-flex">
+           <p>2023 &copy; Flowerish Shop - Todos os Direitos Reservados. </p>
+           <ul class="container-flex">
+            <li>
+                <a href="#">
+                    <img src="icones/facebook.png" alt="Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="icones/instagram.png" alt="Instagram">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="icones/youtube.png" alt="Youtube">
+                </a>
+            </li>
+           </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.btn-menu button').click(function(){
+                $('.lista-cabecalho').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>
