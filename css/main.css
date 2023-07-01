@@ -170,8 +170,15 @@ footer .container {
         margin-bottom: 1rem;
     }
 
-    
-
+    .lista-flores li button {
+        display: block;
+        width: 100%;
+        padding: 6px;
+        color: black;
+        background-color: green;
+        border: none;
+        font-weight: 600;
+    }
     section h2 {
         display: flex;
         justify-content: center;
@@ -228,6 +235,16 @@ footer .container {
 
     .btn-menu {
         display: none;
+    }
+
+    .lista-flores {
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+    }
+
+    .lista-flores li {
+        max-width: 100%;
+        
     }
 
     header ul {
